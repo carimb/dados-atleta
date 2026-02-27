@@ -1,5 +1,6 @@
 # dados-atleta
 2o Projeto de Certificação DEVStart
+
 Resumo do projeto
     Crie uma aplicação capaz de receber informações de um atleta, bem como calcular parâmetros e exibi-los para o usuário.
 
@@ -35,19 +36,15 @@ Utilize as seguintes regras:
         Intermediário: 14 e 15 anos
         Adulto: 16 a 30 anos
         Sem categoria: demais idades
-
     2. Para calcular o IMC
         Fórmula: imc = peso / (altura x altura)
-
     3. Para calcular a média válida
         Método: Utilize o metodologia abordada no Projeto de Certificação 1.
-
     Exemplo de entrada
         // Declara o atleta
-        const atleta = new Atleta("Cesar Abascal",
+            const atleta = new Atleta("Cesar Abascal",
             30, 80, 1.70,
             [10, 9.34, 8.42, 10, 7.88]);
-
     Exemplo de saída
         Nome: Cesar Abascal
         Idade: 30
